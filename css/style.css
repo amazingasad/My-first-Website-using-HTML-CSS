@@ -1,0 +1,242 @@
+body{
+background-color:white;
+font:15px/1.5 arrial, Helvetica, sans-serif;
+}
+/*Global*/
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+ul{
+margin:0;
+padding:0;
+}
+.button_1{
+height:38px;
+background:orangered;
+border:none;
+padding-left:20px;
+padding-right:20px;
+color:white;
+width:100%;
+}
+
+.button_1:hover {
+color:orangered;
+background:black;
+font-weight:bold;
+}
+
+/*header*/
+
+header{
+color:white;
+background:#35424a;
+padding-top:30px;
+min-height:70px;
+border-bottom:#e8481d 3px solid;
+}
+.int{
+color:orangered;
+}
+
+header a{
+color:white;
+text-decoration:none;
+text-transform:uppercase;
+font-size:16px;
+}
+
+#current{
+color:orangered;
+}
+
+header li{
+float:left;
+display:inline;
+padding: 0px 20px 0px 20px;
+}
+
+header #branding{
+float:left;
+}
+header #branding h1{
+margin:0px;
+}
+header nav{
+float:right;
+margin-top:2px;
+}
+nav a{
+cursor:pointer;
+}
+nav a:hover{
+color:grey;
+font-weight:bold;
+}
+/*showcase*/
+#showcase{
+min-height:400px;
+background:url("../img/showcase.jpg") no-repeat -250px -100px;
+text-align:center;
+color:white;
+width:bold;
+}
+#showcase h1{
+margin-top:10px;
+font-size:40px;
+float:left;
+}
+#showcase p{
+font-size:20px;
+}
+/*newsletter*/
+#newsletter{
+padding:15px;
+color:#ffffff;
+background:#35424a;
+}
+#newsletter h1{
+float:none;
+}
+#newsletter form{
+margin-top:20px;
+margin-bottom:20px;
+}
+#newsletter input[type="email"]{
+height:25px;
+width:100%;
+margin-bottom:10px;
+}
+
+
+#name{
+height:25px;
+width:100%;
+margin-bottom:10px;
+}
+
+#web{
+width:100%;
+margin-bottom:10px;
+height:25px;
+}
+
+#msg{
+height:70px;
+width:100%;
+}
+/*boxes*/
+
+#boxes{
+margin-top:20px;
+}
+#boxes .box{
+float:none;
+width:100%;
+text-align:center;
+padding-right:;:60px;
+}
+#boxes .box img{
+width:90px;
+}
+.box p{
+font-size:15px;
+}
+
+/*contact us form*/
+
+
+#nmb{
+width:100%;
+height:25px;
+margin-bottom:10px;
+}
+
+#us{
+color:orangered;
+}
+
+/*footer*/
+footer{
+padding-bottom:-10px;
+background:#e8491d;
+text-align:center;
+font-weight:bold;
+color:white;
+
+}
+#link li{
+display:inline-table;
+}
+
+.c a{
+text-decoration:none;
+color:blue;
+
+}
+.c a:hover{
+color:orangered;
+background-color:white;
+bold:;
+}
+#link{
+display:inline-block;
+}
+
+/*about us*/
+#main-col{
+padding:5px;
+width:100%;
+}
+.sidebar{
+float:none;
+width:100%;
+margin-left:5px;
+margin-right:5px;
+}
+.about{
+width:100%;
+background-color:#35424a;
+color:white;
+padding:5px;
+margin-bottom:10px;
+}
+/*services*/
+
+.serinfo{
+float:none;
+background:white;
+}
+.price{
+background:#e6e6e6;
+padding-left:5px;
+border:1px black dashed;
+}
+
+#order{
+padding-left:15px;
+padding-right:15px;
+padding-bottom:5px;
+padding-top:-10px;
+color:#ffffff;
+background:#35424a;
+}
+#order h1{
+float:none;
+}
+#order form{
+margin-top:20px;
+margin-bottom:20px;
+}
+#order input[type="email"]{
+height:25px;
+width:100%;
+margin-bottom:10px;
+}
+
+#order input[type="text"]{
+width:100%;
+margin-bottom:10px;
+}
