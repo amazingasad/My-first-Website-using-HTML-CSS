@@ -127,6 +127,23 @@ height:25px;
 height:70px;
 width:100%;
 }
+
+input {
+border:1px solid black;
+}
+
+input:focus {
+font-size:large;
+background-color:skyblue;
+color:black;
+}
+
+textarea :focus {
+font-size:large;
+background-color:skyblue;
+color:black;
+
+}
 /*boxes*/
 
 #boxes{
